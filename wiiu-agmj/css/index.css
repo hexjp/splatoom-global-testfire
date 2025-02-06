@@ -1,0 +1,1085 @@
+@charset "UTF-8";
+
+/* ========================================
+    base
+======================================== */
+html,
+body {
+    height: 100%;
+}
+body > #wrapper {
+    height: auto;
+}
+
+#wrapper {
+    position: relative;
+    height:100%;/* for IE6 */
+    min-height:100%;
+}
+
+#wrapper {
+    background-color: #6c6c6c;
+}
+
+#mainvisual-wrap1 {
+    position: relative;
+    z-index: 10;
+    background: url(../images/bg01.jpg) center 0px no-repeat;
+}
+#mainvisual-wrap1.movie-net {
+    background: url(../images/movie_net.png) left top repeat;
+}
+#mainvisual-wrap1 {
+    position: relative;
+    z-index: 10;
+    background: url(../images/bg01.jpg) center 0px no-repeat;
+}
+
+#mainvisual-wrap2 {
+    background: url(../images/bg02.jpg) center 786px no-repeat;
+}
+
+#mainvisual-wrap3 {
+    background: url(../images/bg03.jpg) center 1574px no-repeat;
+}
+
+#mainvisual-wrap4 {
+    background: url(../images/bg04.jpg) center 2362px no-repeat;
+}
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    min-width: 960px;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+#contents {
+    margin-top: 0;
+    padding-top: 193px;
+    background: none;
+}
+
+/* ========================================
+    #loading
+======================================== */
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+#loading .loading-inner {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -367px;
+    width: 734px;
+    height: 529px;
+}
+#loading .loadingtext {
+    position: absolute;
+    top: 185px;
+    left: 290px;
+}
+
+/* ========================================
+    #header
+======================================== */
+body#index #header,
+body#index #header-logo {
+    background: none;
+}
+
+body#index #header-logo {
+    position: absolute;
+    height: auto;
+}
+
+body#index #header-logo .nintendo {
+    top: 20px;
+    left: 21px;
+}
+
+body#index #header-logo .hard {
+    top: 15px;
+    right: 18px;
+}
+
+/* ========================================
+    #bgmbtn
+======================================== */
+body#index #bgmbtn {
+    top: 16px;
+    right: 142px;
+}
+
+
+/* ========================================
+    #main-visual
+======================================== */
+#first-view {
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    z-index: 10;
+    height: 788px;
+    margin: 0 auto;
+}
+#main-visual {
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    position: absolute;
+    bottom: 320px;
+    left: -10px;
+}
+@media all and (max-width: 767px) {
+    #logo {
+        position: absolute;
+        bottom: 420px;
+        left: -10px;
+    }
+}
+
+#copy {
+    position: absolute;
+    top: 39px;
+    left: 10px;
+}
+
+#ink01 {
+    position: absolute;
+    top: 128px;
+    left: 0;
+}
+
+#ink02 {
+    position: absolute;
+    top: 0;
+    left: 131px;
+}
+
+#ink03 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#scroll {
+    position: absolute;
+    bottom: 0;
+    left: 460px;
+}
+
+#bnr01 {
+    position: absolute;
+    bottom: 105px;
+    left: 0;
+}
+
+#bnr02 {
+    position: absolute;
+    bottom: 105px;
+    left: 242px;
+}
+
+#bnr03 {
+    position: absolute;
+    bottom: 105px;
+    left: 484px;
+}
+
+#bnr04 {
+    position: absolute;
+    bottom: 115px;
+    left: 0;
+}
+
+#bnr05 {
+    position: absolute;
+    bottom: 116px;
+    left: 242px;
+}
+
+#bnr06 {
+    position: absolute;
+    bottom: 116px;
+    left: 484px;
+}
+
+#bnr07 {
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+}
+
+#bnr08 {
+    position: absolute;
+    bottom: 36px;
+    left: 242px;
+}
+
+#bnr-update {
+    position: absolute;
+    bottom: 270px;
+    left: 242px;
+}
+.update-txt {
+    position: absolute;
+    width: 180px;
+    top: 30px;
+    left: 25px;
+    color: #f5ff00;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+#support{
+    position: absolute;
+    bottom: 270px;
+}
+
+#president {
+   position: absolute;
+   left: 484px;
+   bottom: 270px;
+}
+
+.new-icon {
+    position: absolute;
+    top: -7px;
+    left: 50px;
+}
+@media all and (max-width: 767px) {
+    #bnr-update {
+        position: absolute;
+        bottom: 370px;
+        left: 242px;
+    }
+    #support{
+        position: absolute;
+        bottom: 370px;
+    }
+    
+    #president {
+       position: absolute;
+       left: 484px;
+       bottom: 370px;
+    }
+}
+/* ------------------------
+    #top-gnavi
+------------------------ */
+#top-gnavi {
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    z-index: 10;
+}
+#top-gnavi ul {
+    position: absolute;
+    width: 200px;
+    padding-top: 9px;
+    top: 76px;
+    right: 0;
+    background: url(../images/gnavi_bg.png) right top no-repeat;
+    text-align: right;
+}
+
+#top-gnavi li {
+    position: relative;
+    margin-right: 6px;
+}
+#top-gnavi li a .gnav-text {
+    position: relative;
+    z-index: 5;
+}
+#top-gnavi li a .gnav-ink {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    z-index: 2;
+}
+.no-js #top-gnavi li a .gnav-ink {
+    display: none;
+}
+#top-gnavi li .new {
+    position: absolute;
+    top: -17px;
+    left: -34px;
+    z-index: 10;
+}
+#top-gnavi li .new-icon {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: 10;
+}
+#top-gnavi ul > li:nth-child(6) {
+    margin: 5px 0;
+}
+#top-gnavi ul > li:nth-child(7) {
+    margin-right: 0;
+}
+
+/* ------------------------
+    #spec
+------------------------ */
+#spec {
+    position: absolute;
+    bottom: 224px;
+    left: 734px;
+}
+
+.spec-pack {
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.spec-ico {
+    position: absolute;
+    top: 138px;
+    left: 0;
+}
+.spec-cero {
+    position: absolute;
+    top: 138px;
+    left: 37px;
+}
+
+.spec-img01 {
+    position: absolute;
+    top: 0;
+    left: 68px;
+}
+.spec-img02 {
+    position: absolute;
+    top: 19px;
+    left: 68px;
+}
+
+.spec-img03 {
+    position: absolute;
+    top: 73px;
+    left: 77px;
+}
+
+.spec-amiibo {
+    position: absolute;
+    top: 138px;
+    left: 78px;
+}
+
+.spec-network {
+    position: absolute;
+    top: 138px;
+    left: 117px;
+}
+
+.spec-detail {
+    position: absolute;
+    top: 96px;
+    left: 77px;
+}
+
+.spec-guide {
+    position: absolute;
+    top: 90px;
+    left: 124px;
+}
+
+/* ------------------------
+    #twitter
+------------------------ */
+#twitter {
+    position: relative;
+    width: 100%;
+    height: 573px;
+    background: url(../images/twitter_bg.png) center top no-repeat;
+}
+
+.twitter-ttl {
+    position: absolute;
+    top: 45px;
+    left: -34px;
+}
+.twitter-lead {
+    position: absolute;
+    top: 168px;
+    left: 70px;
+}
+.twitter-btn {
+    position: absolute;
+    top: 294px;
+    left: 62px;
+}
+
+#tweet {
+    position: absolute;
+    padding: 9px;
+    top: 31px;
+    left: 470px;
+    background: url(../images/tweet_bg.png) left top no-repeat;
+}
+
+.twitterWidget {
+    width: 440px;
+    height: 330px;
+}
+
+.tw-nojs {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+
+/* ------------------------
+    #battle
+------------------------ */
+#battle {
+    height: 489px;
+    background: url(../images/battle_bg.png) left top no-repeat;
+}
+
+/* ttl-text */
+#battle-ttl {
+    position: absolute;
+    top: 64px;
+    left: 63px;
+}
+
+.text {
+    position: absolute;
+}
+#battle-text01 {
+    top: 0;
+    left: 0;
+}
+#battle-text02 {
+    top: 0;
+    left: 33px;
+}
+#battle-text03 {
+    top: 0;
+    left: 70px;
+}
+#battle-text04 {
+    top: 0;
+    left: 113px;
+}
+#battle-text05 {
+    top: 0;
+    left: 150px;
+}
+#battle-text06 {
+    top: 0;
+    left: 184px;
+}
+#battle-text07 {
+    top: 0;
+    left: 229px;
+}
+#battle-text08 {
+    top: 0;
+    left: 262px;
+}
+#battle-text09 {
+    top: 0;
+    left: 294px;
+}
+#battle-text10 {
+    top: 0;
+    left: 332px;
+}
+#battle-text11 {
+    top: 0;
+    left: 364px;
+}
+#battle-text12 {
+    top: 0;
+    left: 405px;
+}
+#battle-text13 {
+    top: 0;
+    left: 438px;
+}
+#battle-text14 {
+    top: 0;
+    left: 486px;
+}
+#battle-text15 {
+    top: 0;
+    left: 505px;
+}
+#battle-text16 {
+    top: 57px;
+    left: 0;
+}
+#battle-text17 {
+    top: 57px;
+    left: 33px;
+}
+#battle-text18 {
+    top: 57px;
+    left: 60px;
+}
+#battle-text19 {
+    top: 57px;
+    left: 84px;
+}
+#battle-text20 {
+    top: 57px;
+    left: 119px;
+}
+#battle-text21 {
+    top: 57px;
+    left: 162px;
+}
+#battle-text22 {
+    top: 57px;
+    left: 195px;
+}
+#battle-text23 {
+    top: 57px;
+    left: 230px;
+}
+#battle-text24 {
+    top: 57px;
+    left: 266px;
+}
+#battle-text25 {
+    top: 57px;
+    left: 296px;
+}
+#battle-text26 {
+    top: 57px;
+    left: 336px;
+}
+#battle-text27 {
+    top: 57px;
+    left: 370px;
+}
+#battle-text28 {
+    top: 57px;
+    left: 399px;
+}
+#battle-text29 {
+    top: 57px;
+    left: 442px;
+}
+#battle-text30 {
+    top: 57px;
+    left: 471px;
+}
+#battle-text31 {
+    top: 57px;
+    left: 512px;
+}
+/* ttl-text end */
+
+#battle .battle-ink {
+    position: absolute;
+    top: 9px;
+    left: -75px;
+}
+
+#battle .battle-img01 {
+    position: absolute;
+    top: 181px;
+    left: 60px;
+}
+
+#battle .battle-img02 {
+    position: absolute;
+    top: 181px;
+    left: 360px;
+}
+
+#battle .battle-btn {
+    position: absolute;
+    top: 397px;
+    left: 236px;
+}
+
+/* ------------------------
+    #transform
+------------------------ */
+#transform {
+    height: 575px;
+    background: url(../images/transform_bg.png) right 75px no-repeat;
+}
+
+#transform .transform-ink {
+    position: absolute;
+    top: 0;
+    left: 759px;
+}
+
+/* ttl-text */
+#transform-ttl {
+    position: absolute;
+    top: 121px;
+    left: 331px;
+}
+
+#transform-text01 {
+    top: 0;
+    left: 0;
+}
+#transform-text02 {
+    top: 0;
+    left: 33px;
+}
+#transform-text03 {
+    top: 0;
+    left: 63px;
+}
+#transform-text04 {
+    top: 0;
+    left: 110px;
+}
+#transform-text05 {
+    top: 0;
+    left: 143px;
+}
+#transform-text06 {
+    top: 0;
+    left: 176px;
+}
+#transform-text07 {
+    top: 0;
+    left: 213px;
+}
+#transform-text08 {
+    top: 0;
+    left: 257px;
+}
+#transform-text09 {
+    top: 49px;
+    left: 0;
+}
+#transform-text10 {
+    top: 49px;
+    left: 33px;
+}
+#transform-text11 {
+    top: 49px;
+    left: 70px;
+}
+#transform-text12 {
+    top: 49px;
+    left: 118px;
+}
+#transform-text13 {
+    top: 49px;
+    left: 151px;
+}
+#transform-text14 {
+    top: 49px;
+    left: 185px;
+}
+#transform-text15 {
+    top: 49px;
+    left: 215px;
+}
+#transform-text16 {
+    top: 49px;
+    left: 257px;
+}
+#transform-text17 {
+    top: 49px;
+    left: 299px;
+}
+#transform-text18 {
+    top: 49px;
+    left: 342px;
+}
+#transform-text19 {
+    top: 49px;
+    left: 363px;
+}
+/* ttl-text end */
+
+#transform .transform-lead {
+    position: absolute;
+    top: 229px;
+    right: 50px;
+}
+
+#transform .transform-img {
+    position: absolute;
+    top: 228px;
+    left: 311px;
+}
+
+#transform .transform-img02 {
+    position: absolute;
+    top: 90px;
+    left: 734px;
+}
+
+/* ------------------------
+    #fashion
+------------------------ */
+#fashion {
+    height: 503px;
+    margin-bottom: 80px;
+    background: url(../images/fashion_bg.png) left 10px no-repeat;
+}
+
+#fashion .fashion-ink {
+    position: absolute;
+    top: 0;
+    left: 287px;
+}
+
+#fashion-ttl {
+    position: absolute;
+    top: 57px;
+    left: 63px;
+}
+
+/* ttl-text */
+#fashion-text01 {
+    top: 0;
+    left: 0;
+}
+#fashion-text02 {
+    top: 0;
+    left: 43px;
+}
+#fashion-text03 {
+    top: 0;
+    left: 88px;
+}
+#fashion-text04 {
+    top: 0;
+    left: 122px;
+}
+#fashion-text05 {
+    top: 0;
+    left: 163px;
+}
+#fashion-text06 {
+    top: 0;
+    left: 202px;
+}
+#fashion-text07 {
+    top: 0;
+    left: 234px;
+}
+#fashion-text08 {
+    top: 0;
+    left: 265px;
+}
+#fashion-text09 {
+    top: 0;
+    left: 284px;
+}
+#fashion-text10 {
+    top: 50px;
+    left: 0;
+}
+#fashion-text11 {
+    top: 50px;
+    left: 33px;
+}
+#fashion-text12 {
+    top: 50px;
+    left: 72px;
+}
+#fashion-text13 {
+    top: 50px;
+    left: 105px;
+}
+#fashion-text14 {
+    top: 50px;
+    left: 147px;
+}
+#fashion-text15 {
+    top: 50px;
+    left: 183px;
+}
+#fashion-text16 {
+    top: 50px;
+    left: 217px;
+}
+#fashion-text17 {
+    top: 50px;
+    left: 251px;
+}
+#fashion-text18 {
+    top: 50px;
+    left: 291px;
+}
+#fashion-text19 {
+    top: 50px;
+    left: 314px;
+}
+#fashion-text20 {
+    top: 50px;
+    left: 351px;
+}
+#fashion-text21 {
+    top: 50px;
+    left: 382px;
+}
+#fashion-text22 {
+    top: 50px;
+    left: 427px;
+}
+#fashion-text23 {
+    top: 50px;
+    left: 460px;
+}
+#fashion-text24 {
+    top: 50px;
+    left: 505px;
+}
+/* ttl-text end */
+
+#fashion .fashion-img01 {
+    position: absolute;
+    top: 157px;
+    left: -15px;
+}
+
+#fashion .fashion-img02 {
+    position: absolute;
+    top: 157px;
+    left: 357px;
+}
+
+#fashion .fashion-btn {
+    position: absolute;
+    top: 387px;
+    left: 236px;
+}
+
+/* ------------------------
+    #hero
+------------------------ */
+#hero {
+    position: relative;
+    height: 481px;
+    margin-bottom: 148px;
+    background: url(../images/hero_bg.png) right top no-repeat;
+}
+
+#hero .hero-ink {
+    position: absolute;
+    top: 35px;
+    left: 861px;
+}
+#hero .hero-ink2 {
+    position: absolute;
+    top: 164px;
+    left: 203px;
+}
+
+/* ttl-text */
+#hero-ttl {
+    position: absolute;
+    top: 67px;
+    left: 322px;
+}
+
+#hero-text01 {
+    top: 0;
+    left: 0;
+}
+#hero-text02 {
+    top: 0;
+    left: 33px;
+}
+#hero-text03 {
+    top: 0;
+    left: 65px;
+}
+#hero-text04 {
+    top: 0;
+    left: 97px;
+}
+#hero-text05 {
+    top: 0;
+    left: 132px;
+}
+#hero-text06 {
+    top: 0;
+    left: 172px;
+}
+#hero-text07 {
+    top: 0;
+    left: 215px;
+}
+#hero-text08 {
+    top: 0;
+    left: 247px;
+}
+#hero-text09 {
+    top: 0;
+    left: 266px;
+}
+#hero-text10 {
+    top: 0;
+    left: 299px;
+}
+#hero-text11 {
+    top: 0;
+    left: 328px;
+}
+#hero-text12 {
+    top: 0;
+    left: 361px;
+}
+#hero-text13 {
+    top: 0;
+    left: 390px;
+}
+#hero-text14 {
+    top: 0;
+    left: 425px;
+}
+#hero-text15 {
+    top: 0;
+    left: 454px;
+}
+#hero-text16 {
+    top: 0;
+    left: 484px;
+}
+#hero-text17 {
+    top: 0;
+    left: 503px;
+}
+#hero-text18 {
+    top: 58px;
+    left: 0;
+}
+#hero-text19 {
+    top: 58px;
+    left: 33px;
+}
+#hero-text20 {
+    top: 58px;
+    left: 65px;
+}
+#hero-text21 {
+    top: 58px;
+    left: 106px;
+}
+#hero-text22 {
+    top: 58px;
+    left: 149px;
+}
+#hero-text23 {
+    top: 58px;
+    left: 169px;
+}
+#hero-text24 {
+    top: 58px;
+    left: 205px;
+}
+#hero-text25 {
+    top: 58px;
+    left: 239px;
+}
+#hero-text26 {
+    top: 58px;
+    left: 272px;
+}
+#hero-text27 {
+    top: 58px;
+    left: 303px;
+}
+#hero-text28 {
+    top: 58px;
+    left: 342px;
+}
+#hero-text29 {
+    top: 58px;
+    left: 375px;
+}
+#hero-text30 {
+    top: 58px;
+    left: 395px;
+}
+#hero-text31 {
+    top: 58px;
+    left: 426px;
+}
+#hero-text32 {
+    top: 58px;
+    left: 466px;
+}
+#hero-text33 {
+    top: 58px;
+    left: 508px;
+}
+#hero-text34 {
+    top: 58px;
+    left: 550px;
+}
+/* ttl-text end */
+
+#hero .hero-img01 {
+    position: absolute;
+    top: 180px;
+    left: 320px;
+}
+
+#hero .hero-img02 {
+    position: absolute;
+    top: 180px;
+    left: 620px;
+}
+
+#hero .hero-btn {
+    position: absolute;
+    top: 394px;
+    left: 495px;
+}
+
+/* ------------------------
+    #visual-movie
+------------------------ */
+#visual-movie,
+#visual-movie-front,
+#first-visual {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+#visual-movie ul {
+    position: relative;
+}
+#visual-movie ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* ========================================
+    #footer
+======================================== */
+#footer {
+    height: 60px;
+}
